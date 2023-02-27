@@ -2,7 +2,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons/faQuestion';
 
-library.add(faQuestion);
+library.add([faQuestion]);
 
 /**
  * Sizing: 2xs, xs, sm, lg, xl, 2xl
